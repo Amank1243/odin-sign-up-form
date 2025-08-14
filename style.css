@@ -7,6 +7,7 @@
     --beach-image: url(/home/akhajuria/Downloads/joel-vodell-8Ogfqvw15Rg-unsplash.jpg);
     --logo-size: 100px ;
     --left-side-width: 38vw;
+    --right-side-right-margin: 50px;
 }
 
 .logo-area {
@@ -19,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 725px;
+    margin-bottom: 740px;
 }
 
 .odin-logo {
@@ -54,13 +55,29 @@ body {
 p.top-section {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1.5px;
-    padding-left: 60px;
+    padding-left: var(--right-side-right-margin);
     padding-right: 120px;
     font-size: 23px;
     font-weight: 600;
     display: flex;
     align-items: center;
     background-color: whitesmoke;
-    height: 40vh;
+    height: 33vh;
     margin-top: 0;
+}
+
+.middle-section h1 {
+    font-size: 23px;
+}
+
+.middle-section {
+    padding-left: var(--right-side-right-margin);
+}
+
+.middle-section label {
+        
+}
+
+.middle-section input {
+
 }
