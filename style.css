@@ -11,13 +11,15 @@
 
 .logo-area {
     font-family: "Norse", 'Times New Roman', Times, serif;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.25);
     font-size: calc(var(--logo-size) * 0.7);
+    padding: 40px;
     color: white;
     width: var(--left-side-width);
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 725px;
 }
 
 .odin-logo {
@@ -46,5 +48,19 @@ body {
 }
 
 .right-side {
-    background-color: purple;
+    flex: 1;
+}
+
+p.top-section {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    padding-left: 60px;
+    padding-right: 120px;
+    font-size: 23px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 40vh;
+    margin-top: 0;
 }
