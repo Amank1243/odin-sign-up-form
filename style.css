@@ -8,6 +8,7 @@
     --logo-size: 100px ;
     --left-side-width: 38vw;
     --right-side-right-margin: 50px;
+    --input-width: 16vw;
 }
 
 .logo-area {
@@ -61,23 +62,60 @@ p.top-section {
     font-weight: 600;
     display: flex;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: rgba(235, 199, 151, 0.911);
+    color: rgb(255, 255, 255);
     height: 33vh;
     margin-top: 0;
 }
 
 .middle-section h1 {
-    font-size: 23px;
+    font-size: 26px;
 }
 
 .middle-section {
     padding-left: var(--right-side-right-margin);
+    height: 35vh;
+}
+
+.row {
+    display: flex;
+    gap: calc(var(--input-width) * 0.2);
+    margin-bottom: 28px;
 }
 
 .middle-section label {
-        
+font-size: 18px;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 .middle-section input {
-
+    background-color: whitesmoke;
+    font-size: 20px;
+    width: var(--input-width);
+    padding: 12px;
+    border-radius: 6px;
+    border: solid rgba(0, 0, 0, 0.164) 1px;
 }
+
+.middle-section .input-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+input:focus {
+    outline: none;
+    border:solid rgba(10, 115, 119, 0.685) 4px;
+}
+
+input[type="password"]:invalid {
+    outline: none;
+    border: solid red 3px;
+}
+
+.bottom-section {
+    background-color: rgba(10, 115, 119, 0.685);
+    height: 29.8vh;
+    
+}
+

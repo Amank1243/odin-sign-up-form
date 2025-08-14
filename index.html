@@ -21,31 +21,47 @@
         <div class="middle-section">
             <h1>Lets do this!</h1>
             <form action="example.com.path" method="post">
+                <div class="row">
+                    <div class="input-buttons">
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name" name="first_name" placeholder="Bruce" >
+                    </div>
 
-                <div class="row-1">
-                    <label for="first_name">First Name:</label>
-                    <input type="text" id="first_name" name="first_name" placeholder="Bruce" >
-                    <label for="last_name">Last Name:</label>
-                    <input type="text" id="last_name" name="last_name" placeholder="Wayne">
+                    <div class="input-buttons">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name" name="last_name" placeholder="Wayne">
+                    </div>
                 </div>
 
-                <div class="row-2">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="darknight@yahoo.com">
-                    <label for="phone_number">Phone Number:</label>
-                    <input type="tel" id="phone_number" name="phone_number" placeholder="123-123-1234">
+                <div class="row">
+                    <div class="input-buttons">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="darknight@yahoo.com">
+                    </div>
+
+                    <div class="input-buttons">
+                        <label for="phone_number">Phone Number</label>
+                        <input type="tel" id="phone_number" name="phone_number" placeholder="123-123-1234">
+                    </div>
                 </div>
 
-                <div class="row-3">
-                    <label for="password">Password:</label>
-                    <input type="password" id="password" name="password" placeholder="HeathLedger123">
-                    <label for="confirm_password">Confirm Password:</label>
-                    <input type="password" id="password" name="confirm_password ">
+                <div class="row">
+                    <div class="input-buttons">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="HeathLedger123" minlength="5" maxlength="20">
+                    </div>
+
+                    <div class="input-buttons">
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" id="password" name="confirm_password" placeholder="HeathLedger123" minlength="5" maxlength="20">
+                    </div>
                 </div>
             </form>
         </div>
-        <div class="bottom-section">
 
+        <div class="bottom-section">
+            <button>Create Account</button>
+            <p>Already have an account? <a href="">Log in</a>></p>
         </div>
     </div>
 </body>
