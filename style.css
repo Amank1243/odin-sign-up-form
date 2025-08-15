@@ -62,8 +62,8 @@ p.top-section {
     font-weight: 600;
     display: flex;
     align-items: center;
-    background-color: rgba(235, 199, 151, 0.911);
-    color: rgb(255, 255, 255);
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
     height: 33vh;
     margin-top: 0;
 }
@@ -74,7 +74,9 @@ p.top-section {
 
 .middle-section {
     padding-left: var(--right-side-right-margin);
-    height: 35vh;
+    height: 34vh;
+    margin-bottom: 4px;
+    box-shadow: 0 4px 0 rgba( 0, 0, 0, 0.2)
 }
 
 .row {
@@ -114,8 +116,29 @@ input[type="password"]:invalid {
 }
 
 .bottom-section {
-    background-color: rgba(10, 115, 119, 0.685);
-    height: 29.8vh;
-    
+    background-color: whitesmoke;
+    height: 29.8vh; 
+    padding-left: var(--right-side-right-margin);
 }
 
+.bottom-section button {
+    margin-top: 48px;
+    width: 12vw;
+    padding: 14px;
+    border-radius: 6px;
+    background-color: rgba(10, 115, 119);
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom-section p {
+    margin-top: 4vh;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom-section p a {
+    color: rgba(10, 115, 119);
+}
